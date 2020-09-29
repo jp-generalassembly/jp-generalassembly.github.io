@@ -1,0 +1,22 @@
+h1, h3, body {
+	font-family: Helvetica;
+	font-color: #fff;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 32px;
+}
+
+h3 {
+	font-weight: 700;
+	font-size:24px;
+}
+
+body {
+	background-color: "images/hero-image.jpg"
+	background: contain;
+	font-weight: 200;
+	font-size: 22px;
+}
