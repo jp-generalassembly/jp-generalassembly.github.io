@@ -1,5 +1,5 @@
 h1, h3, body {
-	font-family: Helvetica;
+	font-family: Arial, sans-serif;
 	font-color: #fff;
 	text-align: center;
 }
@@ -11,12 +11,14 @@ h1 {
 
 h3 {
 	font-weight: 700;
-	font-size:24px;
+	font-size:28px;
 }
 
 body {
-	background-color: "images/hero-image.jpg"
+	background-color: "images/hero-image.jpg";
 	background: contain;
 	font-weight: 200;
 	font-size: 22px;
 }
+
+#slogan {font-style: italic;}
