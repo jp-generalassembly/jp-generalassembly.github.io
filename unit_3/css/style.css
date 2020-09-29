@@ -1,23 +1,23 @@
 h1, h3, body {
-	font-family: Arial, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-color: #fff;
 	text-align: center;
 }
 
 h1 {
-	font-weight: 900;
+	font-weight: bold;
 	font-size: 32px;
 }
 
 h3 {
-	font-weight: 700;
+	font-weight: bold;
 	font-size:28px;
 }
 
 body {
-	background-color: "images/hero-image.jpg";
-	background: contain;
-	font-weight: 200;
+	background-image: url("images/hero-image.jpg");
+	background-size: contain;
+	font-weight: normal;
 	font-size: 22px;
 }
 
