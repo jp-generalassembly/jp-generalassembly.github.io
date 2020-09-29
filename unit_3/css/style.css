@@ -21,4 +21,8 @@ body {
 	font-size: 22px;
 }
 
+ul {
+	list-style-type: none;
+}
+
 #slogan {font-style: italic;}
