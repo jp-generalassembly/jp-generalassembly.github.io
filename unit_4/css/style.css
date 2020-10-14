@@ -4,15 +4,21 @@
 }
 
 header {
-	background-color: #3F66A2;
-	text-align: left;
-	padding: 10px;
+	background-color: #FFED74;
+	text-align: center;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.wrapper {
+  	margin: 30px;
+  	padding: 2em 4em;
 }
 
 nav a {
-	color: #fff;
-	font-weight: 700;
-	margin-right: 15px;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: .5em;
 }
 
 h1, h2, h3 {
@@ -73,9 +79,40 @@ main {
 	padding:20px;
 }
 
-footer {
-	background-color: #8FB7B7;
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
 	padding: 20px;
+}
+
+#bio {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#services {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#testimonials {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.button-wrapper {
+	display: block;
 	text-align: center;
-	margin-top:50px;
+	padding: 1em;
+	margin: .2em 30em;
+	width: auto;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
