@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 header {
@@ -29,12 +30,11 @@ nav a:hover {
 }
 
 a {
-	color: #278BCE;
 	padding: .5em;
 	text-decoration: none;
 	display: inline-block;
 	padding: .5em;
-	width: 10em;
+	width: 20em;
 	text-align: center;
 	font-weight: bold;
 }
@@ -67,6 +67,12 @@ h1, h2, h3, h4 {
 	margin-bottom: 10px;
 }
 
+.steps{
+	width: 25%;
+	float:left;
+	padding: .25em;
+}
+
 h1 {
 	font-size: 32px;
 }
@@ -95,11 +101,16 @@ body {
 	background-color: #fff;
 }
 
-
 p {
 	font-size: 16px;
 	color: #191919;
-	padding: 10px 0;
+	padding: 10px;	
+}
+
+blockquote {
+	width: 33.33%;
+	float: left;
+	padding: 2em;
 }
 
 ul {
@@ -109,7 +120,6 @@ ul {
 
 img {
 	margin: 20px;
-	width: 400px;
 }
 
 div {
@@ -157,7 +167,7 @@ div {
 
 #testimonials {
 	background-color: #FDD28E;
-	padding: 50px 10px;
+	padding: 40px 10px 20px;
 	text-align: center;
 }
 
@@ -165,4 +175,5 @@ div {
 footer {
 	background-color: #278BCE;
 	padding: 20px;
+	text-align: center;
 }
